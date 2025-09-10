@@ -8,6 +8,7 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: WmJDBCAdapter
+  version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
@@ -27,6 +28,14 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.siqa_testgitall_1025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Test_DB
+  packages:
+  - name: SIQA_TestGitAll_1025Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.siqa_testgitall_1025.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_TestGitAll_1025Project
@@ -35,6 +44,26 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.siqa_testgitall_1025.integrations:deepclonetest
+  packages:
+  - name: SIQA_TestGitAll_1025Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2091
+- serviceName: pub.utils:deepClone
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2091
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2091
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   ? artConnection.SIQA_TestGitAll_1025Project.project.siqa_testgitall_1025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
