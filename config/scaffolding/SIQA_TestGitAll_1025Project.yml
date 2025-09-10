@@ -11,10 +11,17 @@ packages:
   version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
+- name: SIQAJDBCAdapterTests
+  gitServerName: MJANGitHub
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.siqa_testgitall_1025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
   packages:
   - name: SIQA_TestGitAll_1025Project
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -24,6 +31,8 @@ services:
   packages:
   - name: SIQA_TestGitAll_1025Project
     version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -31,6 +40,8 @@ services:
 - serviceName: project.siqa_testgitall_1025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Test_DB
   packages:
   - name: SIQA_TestGitAll_1025Project
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -40,6 +51,8 @@ services:
   packages:
   - name: SIQA_TestGitAll_1025Project
     version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -48,9 +61,31 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2091
+- serviceName: project.siqa_testgitall_1025.integrations:Call_refData
+  packages:
+  - name: SIQA_TestGitAll_1025Project
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.siqa_testgitall_1025.referencedata:refData
+  packages:
+  - name: SIQA_TestGitAll_1025Project
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.siqa_testgitall_1025.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_TestGitAll_1025Project
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -59,6 +94,8 @@ services:
 - serviceName: project.siqa_testgitall_1025.integrations:deepclonetest
   packages:
   - name: SIQA_TestGitAll_1025Project
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
