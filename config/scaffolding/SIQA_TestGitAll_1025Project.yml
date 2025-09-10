@@ -12,6 +12,7 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 - name: SIQAJDBCAdapterTests
+  version: "1.0"
   gitServerName: MJANGitHub
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
@@ -72,6 +73,16 @@ services:
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
 - serviceName: project.siqa_testgitall_1025.referencedata:refData
+  packages:
+  - name: SIQA_TestGitAll_1025Project
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.siqa_testgitall_1025.integrations:Copy_Call_refData
   packages:
   - name: SIQA_TestGitAll_1025Project
     version: "1.0"
