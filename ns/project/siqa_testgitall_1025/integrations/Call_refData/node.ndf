@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">rimabarman</value>
-    <value name="createdDate">1757479179800</value>
-    <value name="lastModifiedDate">1757479179800</value>
+    <value name="lastModifiedBy">rimabarman</value>
+    <value name="lastModifiedDate">1757479235777</value>
     <value name="displayName">Call_refData</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -60,9 +59,13 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">refData1</value>
-          <value name="serviceName">project.siqa_tesgitall_8925.referencedata:refData1</value>
+          <value name="displayName">refData</value>
+          <value name="serviceName">project.siqa_testgitall_1025.referencedata:refData</value>
         </record>
+        <Boolean name="serviceReferenceResolved">false</Boolean>
+        <value name="nodePathForDebug">0</value>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
