@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">rimabarman</value>
-    <value name="createdDate">1757482689150</value>
-    <value name="lastModifiedDate">1757482689150</value>
+    <value name="lastModifiedBy">rimabarman</value>
+    <value name="lastModifiedDate">1757482728279</value>
     <value name="displayName">Test_Rest</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -112,6 +111,7 @@
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
